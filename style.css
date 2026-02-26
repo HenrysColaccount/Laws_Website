@@ -13,9 +13,7 @@ img{
     border-style: solid;color: rgb(89, 118, 181);
     display: block;
     margin:auto;   
-}
-#question1 button{
-    background-color: rgb(251, 252, 255);
+
 }
 #question1{
 text-align: center;
@@ -24,4 +22,9 @@ text-align: center;
 footer{
     position: fixed;
     bottom:5rem;
+}
+button{
+    background-color: rgb(51, 97, 172);
+    color: aliceblue;
+    border-radius: 0.3cm;
 }
