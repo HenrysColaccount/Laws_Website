@@ -20,3 +20,8 @@ img{
 #question1{
 text-align: center;
 }
+
+footer{
+    position: fixed;
+    bottom:5rem;
+}
