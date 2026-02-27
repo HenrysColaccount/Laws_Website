@@ -9,22 +9,19 @@ body{
     background-color: hwb(0 81% 18%);
     color:rgb(68, 72, 67);
 }
-img{
-    border-style: solid;color: rgb(89, 118, 181);
-    display: block;
-    margin:auto;   
+img{ border-style: solid;color: rgb(89, 118, 181); display: block; margin:auto; }
 
-}
-#question1{
-text-align: center;
-}
 
-footer{
-    position: fixed;
-    bottom:5rem;
-}
-button{
-    background-color: rgb(89, 118, 181);
-    color: aliceblue;
-    border-radius: 0.3cm;
-}
+#question1{ text-align: center; }
+
+
+footer{ position: fixed; bottom:5rem;}
+
+
+button{ background-color: rgb(89, 118, 181); color: aliceblue; border-radius: 0.3cm; }
+
+
+#thelist{ font-size: xx-large; }
+
+
+a{ color: rgb(23, 115, 227); text-decoration:none; }
