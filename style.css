@@ -21,7 +21,8 @@ footer{ position: fixed; bottom:5rem;}
 button{ background-color: rgb(89, 118, 181); color: aliceblue; border-radius: 0.3cm; }
 
 
-#thelist{ font-size: xx-large; }
+#thelist{ font-size: xx-large; text-decoration: none; }
 
 
 a{ color: rgb(23, 115, 227); text-decoration:none; }
+#title_sub{text-align: center;}
