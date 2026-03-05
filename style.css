@@ -13,10 +13,13 @@ img{ border-style: solid;color: rgb(89, 118, 181); display: block; margin:auto; 
 
 
 #question1{ text-align: center; }
-#announcement{
-    text-align: center;
+#announcement{ text-align: center; color: aliceblue;border-radius: 0.3cm;}
+.quiz-correct{
+    background-color: rgb(15, 161, 2);
 }
-
+.quiz-incorrect{
+    background-color: rgb(182, 4, 4);
+}
 
 footer{ position: fixed; bottom:5rem;}
 
