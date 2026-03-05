@@ -13,6 +13,9 @@ img{ border-style: solid;color: rgb(89, 118, 181); display: block; margin:auto; 
 
 
 #question1{ text-align: center; }
+#announcement{
+    text-align: center;
+}
 
 
 footer{ position: fixed; bottom:5rem;}
@@ -21,7 +24,7 @@ footer{ position: fixed; bottom:5rem;}
 button{ background-color: rgb(89, 118, 181); color: aliceblue; border-radius: 0.3cm; }
 
 
-#thelist{ font-size: xx-large; text-decoration: none; }
+#thelist{ font-size: xx-large; text-decoration: none;background-color: rgb(168, 168, 168);width:;}
 
 
 a{ color: rgb(23, 115, 227); text-decoration:none; }
