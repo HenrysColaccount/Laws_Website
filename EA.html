@@ -24,11 +24,13 @@
 <h3>Direct and Indirect Discrimination</h3>
 <p>Direct discrimination occurs when someone is treated less favorably because of a protected characteristic. Indirect discrimination happens when a policy given by an employer applies to everyone but disadvantages people with a protected characteristic.</p>
 <h4>Which of these is NOT a protected characteristic?</h4>
-    <ul>
-        <li id="qs"onclick="alert('Gender is a protected characteristic!')">Gender</li>
-        <li id="qs"onclick="alert('Race is a protected characteristic! Have you even been reading?')">Race</li>
-        <li id="qs"onclick="alert('Nice one genius, how long did it take you to figure that out?')">Clothing Choice</li>
-    </ul>
 
+  <input type="radio" id="gender" name="characteristic" value="gender" onclick="document.getElementById('announcement').innerHTML='Gender is a protected characteristic!';document.getElementById('announcement').className='quiz-incorrect'">
+  <label for="gender">Gender</label><br>
+  <input type="radio" id="race" name="characteristic" value="race" onclick="document.getElementById('announcement').innerHTML='Race is a protected characteristic........ Have you even been reading?';document.getElementById('announcement').className='quiz-incorrect'">
+  <label for="race">Race</label><br>
+  <input type="radio" id="Clothing Choice" name="characteristic" value="clothing_choice" onclick="document.getElementById('announcement').innerHTML='Nice one genius, how long did it take you to figure that out?';document.getElementById('announcement').className='quiz-correct'">
+  <label for="clothing_choice">Clothing Choice</label>
+<div id="announcement"></div>
 
 </body>

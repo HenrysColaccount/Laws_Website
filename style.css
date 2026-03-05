@@ -25,7 +25,9 @@ footer{ position: fixed; bottom:5rem;}
 
 
 button{ background-color: rgb(89, 118, 181); color: aliceblue; border-radius: 0.3cm; }
-
+#qs{
+    background-color: rgb(89, 118, 181); color: aliceblue; border-radius: 0.1cm;width:fit-content;
+}
 
 #thelist{ font-size: xx-large; text-decoration: none;background-color: rgb(168, 168, 168);width:;}
 
